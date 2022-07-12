@@ -9,4 +9,9 @@ contenido del curso:
     visualizar estado de cambios "git status"
     ....agregar un comando visto en el video colocandolo entre comillas!
     
+    agregar archivos "git add"
+    eliminar archivos "git rm"
+    nota sobre la modificacion de archivo "git commit -m"
+
+    
 3.- lenguaje HTML y CSS
