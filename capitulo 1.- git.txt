@@ -1,0 +1,8 @@
+en este caputulo se veran el tema de GIT
+
+tareas pendientes:
+
+    - adquirir el repositorio de la nube (cursofie)
+    - modificar el archivo temario con todos los comandos restantes
+    - verificar si hay problemas al momento de realizar "PUSH" a la nube y como se soluciona
+    
