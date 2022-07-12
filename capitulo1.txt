@@ -1,0 +1,10 @@
+contenido del curso:
+
+1.- descarga de programas a utilizar:
+    visual studi code
+    GIT
+2.- tema 1: herramienta de control de versiones GIT
+    configurar GIT
+    iniciar repositorio "git ."
+    visualizar estado de cambios "git status"
+    ....agregar un comando visto en el video
