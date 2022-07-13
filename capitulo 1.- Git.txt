@@ -12,18 +12,24 @@ comandos básicos de uso:
 
 NOTA: colocar una descripcion breve pero intendible de lo que hace el comando.
 
-    agregar archivos "git add"
-    eliminar archivos "git rm"
-    nota sobre la modificacion de archivo "git commit -m"
+    - agregar archivos "git add"
+    - eliminar archivos "git rm"
+    - nota sobre la modificacion de archivo "git commit -m"
 
-    Nos entrega las ramas que tenemos en nuestra computadora "git branch"
-    Crea una nueva rama en nuestra computadora "git checkout -b "nombre de la rama""
-    Añade un repositorio remoto "git remote add origin"
+    - Nos entrega las ramas que tenemos en nuestra computadora "git branch"
+    - Crea una nueva rama en nuestra computadora "git checkout -b "nombre de la rama""
+    - Añade un repositorio remoto "git remote add origin"
 
-    revisa el historial de todo el repositorio "git log"
-    muestra los cambios que se encuentran en la parte de staged "git diff --stayed"
-    sirve para poder subir nuestros cambios, con respecto a la rama en la que estemos trabajando "git push"
+    - revisa el historial de todo el repositorio "git log"
+    - muestra los cambios que se encuentran en la parte de staged "git diff --stayed"
+    - sirve para poder subir nuestros cambios, con respecto a la rama en la que estemos trabajando "git push"
 
+    - Clona en nuestra computadora el repositorio de GitHub al que vamos a aportar creando una carpeta con el 
+      nombre del repositorio: git clone "URL del repositorio con extension .git"
+    - Se descargan y actualizan los cambios hechos a un repositorio de GitHub despues de clonarlo y no tener 
+      dichos cambios en nuestra computadora: git pull 
+    - Transfiere cambios de una rama a otra "mezclando" las ramas: git merge "rama donde se tienen los cambios"
+        *Se debe estar en la rama en la que se quieren transferir los cambios realizados 
 
 
 tareas pendientes:
