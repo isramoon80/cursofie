@@ -13,6 +13,10 @@ contenido del curso:
     eliminar archivos "git rm"
     nota sobre la modificacion de archivo "git commit -m"
 
+    Nos entrega las ramas que tenemos en nuestra computadora "git branch"
+    Crea una nueva rama en nuestra computadora "git checkout -b "nombre de la rama""
+    Añade un repositorio remoto "git remote add origin"
+
     revisa el historial de todo el repositorio "git log"
     muestra los cambios que se encuentran en la parte de staged "git diff --stayed"
     sirve para poder subir nuestros cambios, con respecto a la rama en la que estemos trabajando "git push"
