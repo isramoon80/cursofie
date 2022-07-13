@@ -1,0 +1,35 @@
+En este caputulo se estudiará el tema de GIT:
+
+comandos basicos de configuración:
+    - Configurar nombre de usuario: git config --global user.name "nombre de usuario"
+    - Configurar correo electrónico: git config --global user.email "correo@gmail.com"
+    - revisar configuraciones en la terminal: git config -l
+        *para salir de la revisión de configuraciones, presionar la letra "q"
+
+comandos básicos de uso:
+    - Iniciar un repositorio de una carpeta (se debe estar dentro de la carpeta):  git init
+    - Visualizar cambios de estado de los archivos en la carpeta: git status
+
+NOTA: colocar una descripcion breve pero intendible de lo que hace el comando.
+
+    agregar archivos "git add"
+    eliminar archivos "git rm"
+    nota sobre la modificacion de archivo "git commit -m"
+
+    Nos entrega las ramas que tenemos en nuestra computadora "git branch"
+    Crea una nueva rama en nuestra computadora "git checkout -b "nombre de la rama""
+    Añade un repositorio remoto "git remote add origin"
+
+    revisa el historial de todo el repositorio "git log"
+    muestra los cambios que se encuentran en la parte de staged "git diff --stayed"
+    sirve para poder subir nuestros cambios, con respecto a la rama en la que estemos trabajando "git push"
+
+
+
+tareas pendientes:
+
+    - adquirir el repositorio de la nube (cursofie)
+    - modificar el archivo temario con todos los comandos restantes
+    - verificar si hay problemas al momento de realizar "PUSH" a la nube y como se soluciona
+    
+
