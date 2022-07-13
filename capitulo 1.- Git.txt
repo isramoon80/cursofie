@@ -30,6 +30,13 @@ NOTA: colocar una descripcion breve pero intendible de lo que hace el comando.
       dichos cambios en nuestra computadora: git pull 
     - Transfiere cambios de una rama a otra "mezclando" las ramas: git merge "rama donde se tienen los cambios"
         *Se debe estar en la rama en la que se quieren transferir los cambios realizados 
+    
+    -Muestra el estado actual de nuestro repositorio "gis status"
+    -Quita algún cambio que hayamos pasado a la etapa de staged "gis restore --staged"
+    -Recupera algún archivo que hayamos eliminado "git restore"
+    -Renombra un archivo y agrega inmediatamente a la etapa de staged "git mv ______ _______" 
+        primer parametro: nombre del archivo
+        segundo parametro: nuevo nombre
 
 
 tareas pendientes:
