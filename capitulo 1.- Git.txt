@@ -38,6 +38,13 @@ NOTA: colocar una descripcion breve pero intendible de lo que hace el comando.
         primer parametro: nombre del archivo
         segundo parametro: nuevo nombre
 
+    -Para modificar un comit en caso de errores sobre el mismo  "git commit --amed -m "mensaje corregido 
+        del comit" "
+    -Agregar sobrenombre a un comando para hacerlo mas corto  "git config --global alias.(nombre del alias)
+        "comando que representara el alias" "
+    -Eliminar una rama  "git branch -d "nombre de la rama" "
+    -Muestra el contenido de un archivo  "cat "nombre del archivo" "
+
 
 tareas pendientes:
 
