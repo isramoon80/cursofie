@@ -1,0 +1,56 @@
+Cascading style sheets - hojas de estilos en cascada: se aplican al documento en html
+en el cual se invique, y dicha aplicacion se realiza acorde al identificador de las etiquetas;
+de acuerdo a la posicion de los estilos, se aplica el mismo.
+
+identificacion de etiquetas en el archivo CSS:
+  - por id (id="textA"): #textA {}
+  - por clase (class="texto1"): .texto1 {}
+  - para todas las etiquetas que no tengan un estilo modificado y/o clase o id:
+      * { }
+  - para una etiqueta sin clase o id asignado:<div></div>
+      div{}
+  - para una etiqueta con una clase asignada: <p class="texto1"></p>
+      p.texto1 {}
+  - para una etiqueta dentro de otra etiqueta: <div><p>hola</p></div>
+      div p {}
+  - para varias etiqueta dentro de otra etiqueta:
+      div h2, div h3 {}
+
+
+
+boxmodel.- propiedades de cada etiqueta a la cual se le asignan propiedades
+como son: margin, padding, border, heigh, width, outline....etc.
+
+  - margin: separacion existente entre el contenedor y la etiqueta. ej:
+    <div>
+      <article class"texto"> 
+      </article> 
+    </div>
+    - div es el contenedor, article es la etiqueta a la que se le asignan propiedades.
+  - padding: separacion del contenido de los bordes de la etiqueta
+  - border: borde de la etiqueta
+  - width, height: tamaño de la etiqueta
+  - outline: borde externo al borde XD
+
+manejo de texto en etiquetas
+
+manejo de links: <a href="www.google.com.mx">
+  - a:link{}      cambia propiedades de la etiqueta
+  - a:visited{}   cambia propiedades cuando ya se presiono la etiqueta
+  - a:hover{}     cambia propiedades cuando pasa el mouse por la etiqueta
+  - a:active{}    cambia propiedades cuando se presiona la etiqueta
+
+manejo de tablas: cambiar las propiedades de las mismas.
+  - table{}       cambia propiedades de la tabla
+  - th, td {}     cambia propiedades de th y td
+  - tr:nth-child{}cambia propiedades de filas pares o impares
+  - tr:hover{}    cambia propiedades cuando pasa el mouse por la celda
+
+manejo de fila completa: algunas etiquetas ocupan toda la fila para desplegarse (ej. div), otras
+ solo lo que ocupe su contenido (ej. span); estos parametros se pueden cambiar con la propiedad "display"
+
+  - display:inline;  --> las etiquetas solo ocupan el espacio que requiere su contenido
+  - display:block;  --> las etiquetas ocupan toda la fila.
+  - display:none;   --> no despliega u oculta las etiquetas.
+  - visibility:hidden;  no despliega u oculta las etiquetas.
+  - maxwidth:300px   --> fija el ancho maximo de la etiqueta, aunque puede ser menor
